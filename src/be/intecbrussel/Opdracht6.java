@@ -1,5 +1,7 @@
 package be.intecbrussel;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.stream.Stream;
 
 public class Opdracht6 {
@@ -24,8 +26,7 @@ Plaats deze array in een nieuwe array(Gebruik toArray). Alle dieren moeten in lo
         Stream.of(animals)
                 .map(String::toLowerCase)
                 .filter(word->word.contains("a"))
-                .map(word->word.length())
-                .sorted()
+                .sorted(Comparator.comparingInt(String::length))
                 .forEach(System.out::println);
 
 

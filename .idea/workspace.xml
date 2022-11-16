@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bf9cf94-d1b9-45c1-bf45-b13116044e1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/Opdracht5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/Opdracht6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/intecbrussel/ShoePair.java" afterDir="false" />
+    <list default="true" id="9bf9cf94-d1b9-45c1-bf45-b13116044e1a" name="Changes" comment="Streams">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/Opdracht1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/Opdracht6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/Opdracht6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,7 @@
     "last_opened_file_path": "C:/Users/Intec/Desktop/Java projects/OefeninginPearl"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Opdracht5">
+  <component name="RunManager" selected="Application.Opdracht6">
     <configuration name="Opdracht1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.intecbrussel.Opdracht1" />
       <module name="OpdrachtenLambda" />
@@ -108,8 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Opdracht5" />
         <item itemvalue="Application.Opdracht6" />
+        <item itemvalue="Application.Opdracht5" />
         <item itemvalue="Application.ShoePair" />
         <item itemvalue="Application.Opdracht1" />
         <item itemvalue="Application.Opdracht4" />
@@ -125,6 +122,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668514141436</updated>
     </task>
+    <task id="LOCAL-00001" summary="Streams">
+      <created>1668602626184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668602626184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,5 +142,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams" />
   </component>
 </project>
