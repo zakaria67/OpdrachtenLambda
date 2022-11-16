@@ -15,7 +15,7 @@ public class Opdracht1 {
         time.run();
 
 // consumer
-        Consumer consumer = (c) -> {
+        Consumer<Integer> consumer = c -> {
             System.out.println("this number is: " + c);
         };
         consumer.accept(5);
@@ -35,9 +35,8 @@ public class Opdracht1 {
         int lengthOfWord = letterCount.apply("Intec");
         System.out.println(lengthOfWord);
 
-        Function<Integer, Integer> sum = (s) -> {
-            return s+10;
-        };
+        Function<Integer, Integer> sum = s -> s+10;
+
          sum.apply(20);
         System.out.println(sum.apply(20));
     }
